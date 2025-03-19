@@ -10,12 +10,17 @@ Este projeto consiste em uma aplicação web desenvolvida em PHP que permite o g
 
 ## Estrutura do Repositório
 
-add_song.php: Arquivo responsável pela funcionalidade de adicionar novas músicas ao banco de dados.
-codigo.sql: Script SQL para criação e configuração da base de dados.
-db_config.php: Arquivo de configuração da conexão com o banco de dados.
-index.php: Página principal da aplicação.
-view_song.php: Arquivo responsável pela visualização das músicas cadastradas.
-README.md: Este arquivo de documentação.
+**add_song.php:** Arquivo responsável pela funcionalidade de adicionar novas músicas ao banco de dados.
+
+**codigo.sql:** Script SQL para criação e configuração da base de dados.
+
+**db_config.php:** Arquivo de configuração da conexão com o banco de dados.
+
+**index.php:** Página principal da aplicação.
+
+**view_song.php:** Arquivo responsável pela visualização das músicas cadastradas.
+
+**README.md:** Este arquivo de documentação.
 
 ## Funcionalidades
 
