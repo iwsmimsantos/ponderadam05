@@ -2,7 +2,7 @@
 
 Aplicação Web integrada a uma base de dados
 
-[Link do vídeo](<[URL](https://youtu.be/xfqBGbXwDck?si=j5TR8mTLMQD_ktTU)>)
+[Link do vídeo](https://youtu.be/xfqBGbXwDck?si=j5TR8mTLMQD_ktTU)
 
 ## Descrição do Projeto
 
