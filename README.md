@@ -1,6 +1,6 @@
 # Ponderada Programação
 
-Aplicação Web integrada a uma base de dados
+Aplicação Web integrada a uma base de dados usando instância EC2 e DBS da AWS.
 
 [Link do vídeo](https://youtu.be/xfqBGbXwDck?si=j5TR8mTLMQD_ktTU)
 
@@ -24,5 +24,15 @@ Este projeto consiste em uma aplicação web desenvolvida em PHP que permite o g
 
 ## Funcionalidades
 
-Cadastro de músicas com informações como título, artista, álbum e ano de lançamento
-Visualização de todas as músicas cadastradas
+- Cadastro de músicas com informações como título, artista, álbum e ano de lançamento;
+- Visualização de todas as músicas cadastradas
+
+Estruturação da tabela:
+
+| Campo          | Tipo         | Restrições                  | Descrição                     |
+| -------------- | ------------ | --------------------------- | ----------------------------- |
+| id             | INT          | PRIMARY KEY, AUTO_INCREMENT | Identificador único da música |
+| title          | VARCHAR(255) | NOT NULL                    | Título da música              |
+| album          | VARCHAR(255) | NOT NULL                    | Nome do álbum                 |
+| release_date   | DATE         | NULL                        | Data de lançamento            |
+| chart_position | INT          | NULL                        | Posição nas paradas musicais  |
